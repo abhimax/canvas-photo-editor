@@ -1,5 +1,5 @@
 var path = require('path');
-const fs = require("fs");
+const fs = require("fs")
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
         stats: { colors: true },
         hot: true,
         open: true,
-        port: 8090,
+        port: 80,
         contentBase: path.join(__dirname, 'dist')
     },
     module: {

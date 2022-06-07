@@ -19,11 +19,11 @@
         </h5>
         <p class="card-text">Upload or load an image using this application</p>
         <input type="file" id="fileSelector" class="btn btn-primary" />
-
+        
         <button type="button" id="submit" class="btn dled2 btn-danger mt-1">
           Submit Data
         </button>
-
+        
         <p class="status"></p>
       </div>
     </div>
@@ -31,18 +31,26 @@
       <img src="https://i.stack.imgur.com/ATB3o.gif" alt="" />
     </div>
     <div class="card  mt-10">
-
-      <canvas id="editorCanvas"></canvas>
-      <div class="buttons">
-        <button type="button" id="zout" class="btn dled btn-success mt-1">
-          Scale 50%
-        </button>
-        <button type="button" id="zin" class="btn dled1 btn-danger mt-1">
-          Scale 200%
-        </button>
-
-
-      </div>
+      
+      <canvas id="editorCanvas"></canvas> 
+    </div>
+    <div class="buttons">
+      <button type="button" id="zout" class="btn dled btn-success mt-1">
+        Scale 50%
+      </button>
+      <button type="button" id="zin" class="btn dled1 btn-danger mt-1">
+        Scale 200%
+      </button>
+    </div>
+    <div class="buttons btns">
+      <button type="button" id="mleft" class="btn dled3 btn-primary mt-1">
+        Move Photo Left
+      </button>
+      <button type="button" id="mright" class="btn dled4 btn-warning mt-1">
+        Move Photo Right
+      </button>
+    </div>
+     
     <div class="card prev mt-10">
       <img id="preview" src="" alt="Loaded Image">       
       </div>
@@ -65,3 +73,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
+</html>
